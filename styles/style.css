@@ -74,7 +74,7 @@ body {
 	margin: 0 auto;
 }
 
-.hug-colomn {
+.hug-column {
 	display: inline-block;
 	width: 30%;
 	padding-bottom: 90px;
@@ -82,7 +82,7 @@ body {
 
 }
 
-.hug-colomn--margin {
+.hug-column--margin {
 	margin: 0 5%;
 }
 
@@ -98,7 +98,7 @@ body {
 	
 
 
-.hug-colomn li {
+.hug-column li {
 	background-color: rgba(118,117,128,0.05);
 	border-radius: 5px;
 
@@ -130,7 +130,7 @@ ul[class*=hug-list] h3 {
 }
 
 
-.hug-colomn-title {
+.hug-column-title {
 	color: #c2c2c2;
 	text-transform: uppercase;
 	font-size: 18px;
