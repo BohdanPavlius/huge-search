@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F1F1F1;
+	margin: 0;
+	padding: 0;
+	/* overflow-y: hidden; */
+}
+
+/* .hug-container {
+	max-width: 100%;
+} */
+
+
+.hug-top{
+	position: relative;
+	padding-top: 40px;
+	margin: 0 auto;
+	width: 90%;
+
+}
+.hug-form {
+	/* position: relative; */
+}
+
+.hug-search-input {
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	font-size: 7em;
+	font-weight: bold;
+	color: #ec5a62;
+	padding: 0px 160px 0 10px;
+	outline: none;
+
+}
+
+
+.hug-search-input::-webkit-input-placeholder {
+	color: #c2c2c2;
+}
+
+.hug-button {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	right: 0;
+	top: 50%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: transparent url('../img/search.svg') no-repeat;
+	font-size: 0;
+	transform: translateY(-25%);
+	
+}
+
+.hug-button:hover {
+	transform: scale(1.3);
+	transition: transform 0.5s ease;
+}
+
+
+
+/* main colomn */
+
+.hug-main-content {
+	/* text-align: center; */
+	
+	max-width: 1200px;
+	font-size: 0;
+	margin: 0 auto;
+}
+
+.hug-colomn {
+	display: inline-block;
+	width: 30%;
+	padding-bottom: 90px;
+	padding-top: 60px;
+
+}
+
+.hug-colomn--margin {
+	margin: 0 5%;
+}
+
+
+
+.hug-list {
+	/* width: 100%; */
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+	
+
+
+.hug-colomn li {
+	background-color: rgba(118,117,128,0.05);
+	border-radius: 5px;
+
+}
+
+
+.hug-list--border img {
+	border-radius: 50%;
+
+}
+
+.hug-list img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+
+/* ul[class*=hug-list] {
+	list-style: none;
+	font-size: 0;
+	padding-left: 0;
+
+} */
+
+ul[class*=hug-list] h3 {
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.hug-colomn-title {
+	color: #c2c2c2;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 900;
+	letter-spacing: .09em
+
+
+}
+
+.hug-list a {
+	text-decoration: none;
+	color: #c2c2c2;
+	display: block;
+	padding: 13px;
+	margin: 5px 0;
+	
+}
+
+ul > li:hover  {
+	background-color: rgba(118, 117, 128, 0.1);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+li:hover h3 {
+	color: #EC5A62; 
+}
+
